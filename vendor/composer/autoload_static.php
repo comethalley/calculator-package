@@ -149,6 +149,10 @@ class ComposerStaticInit2188289e3824a722a1a15b959215ffc0
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Prompts\\' => 16,
         ),
+        'J' => 
+        array (
+            'JohnDoe\\BlogPackage\\Tests\\' => 26,
+        ),
         'I' => 
         array (
             'Invoker\\' => 8,
@@ -390,8 +394,8 @@ class ComposerStaticInit2188289e3824a722a1a15b959215ffc0
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -476,6 +480,10 @@ class ComposerStaticInit2188289e3824a722a1a15b959215ffc0
         'Laravel\\Prompts\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
+        ),
+        'JohnDoe\\BlogPackage\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Invoker\\' => 
         array (

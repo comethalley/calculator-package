@@ -8,6 +8,11 @@
             "Comethalley\\CalculatorPackage\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+          "Comethalley\\CalculatorPackage\\Tests\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "Kenneth D. Bonita",
@@ -23,6 +28,7 @@
 		}
 	},
     "require-dev": {
-        "orchestra/testbench": "9.0"
+        "orchestra/testbench": "9.0",
+        "phpunit/phpunit": "11.2.x-dev"
     }
 }
