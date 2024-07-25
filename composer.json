@@ -1,0 +1,28 @@
+{
+    "name": "comethalley/calculator-package",
+    "description": "A laravel package that let you use the functionality of a real calculator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Comethalley\\CalculatorPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenneth D. Bonita",
+            "email": "kenneth.bonita07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+		"laravel": {
+			"providers": [
+				"Comethalley\\CalculatorPackage\\Providers\\CalculatorServiceProvider"
+			]
+		}
+	},
+    "require-dev": {
+        "orchestra/testbench": "9.0"
+    }
+}
